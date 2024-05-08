@@ -98,6 +98,7 @@ class _Page1State extends State<Page1> {
               ),
             ),
             Row(
+              mainAxisAlignment: MainAxisAlignment.spaceEvenly,
   children: [
     _buildShoeContainer(
       shoeImage: "assets/images/shoe4.png",
@@ -112,9 +113,9 @@ class _Page1State extends State<Page1> {
     ),
   ],
 ),
-SizedBox(height: 20,),
+const SizedBox(height: 20,),
 Container(
-  width: MediaQuery.of(context).size.width*.5,
+  width: MediaQuery.of(context).size.width*.6,
   decoration: BoxDecoration(color: Colors.white),
   child: Row(
     children: [
